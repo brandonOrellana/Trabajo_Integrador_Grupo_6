@@ -16,18 +16,12 @@ Este repositorio contiene el código y los recursos para el Proyecto Final Integ
 ## Instalación
 
 1. Clona o descarga este repositorio.
-2. Crea un entorno virtual (opcional pero recomendado):
+2. Crea un entorno virtual:
 
    ```bash
    python -m venv env
    source env/bin/activate
    pip install -q xgboost statsmodels scikit-learn pandas matplotlib seaborn plotly umap-learn
-   ```
-   
-# Si deseas usar visualizaciones interactivas:
-
-   ```bash
-   pip install plotly
    ```
 
 ## Descarga de Datos
@@ -41,10 +35,10 @@ Accede a las fuentes oficiales:
 3. Copia el archivo a la ruta `data/` en tu copia local del repositorio.
 
 ## Ejecución del Notebook
-Abre el notebook captura_pesquera_ml.ipynb con Jupyter Notebook o JupyterLab:
+Abre el notebook Trabajo_Integrador_Grupo_6.ipynb con Jupyter Notebook o JupyterLab:
 
    ```bash
-   jupyter notebook captura_pesquera_ml.ipynb
+   jupyter notebook Trabajo_Integrador_Grupo_6.ipynb
    ```
 
 ### Ejecuta las celdas en orden. El notebook realiza los siguientes pasos:
